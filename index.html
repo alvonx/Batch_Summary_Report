@@ -21,52 +21,72 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+    <!-- font awesome v5.14.4 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- anychart base module -->
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-base.min.js"></script>
+
+
+    <!-- anychart pie chart -->
+
 </head>
 <body>
     <div class="container-fluid">
         <div class="row mt-4">
             <div class="col-md-3">
                 <div class="card flex-row">
-                    <img class="card-img-left example-card-img-responsive" width="50px" height="50px" src="https://mk0hootsuiteblof6bud.kinstacdn.com/wp-content/uploads/2018/01/free-stock-videos-1.jpg" />
+                    <i class="fas fa-film"></i>
                     <div class="card-body"> 
                         <div class="card-title">Total videos uploaded</div>
-                        <div class="card-text">109</div>
+                        <div class="card-text text-center">110</div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card">
-                    <div class="card-header">Total videos processed</div>
-                    <div class="card-body"> Data 1 </div>
+                <div class="card flex-row">
+                    <i class="fas fa-tasks"></i>
+                    <div class="card-body">
+                        <div class="card-title">Total videos processed</div>
+                        <div class="card-text text-center"> Data 1 </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card">
-                    <div class="card-header">Total duration</div>
-                    <div class="card-body"> Data 1 </div>
+                <div class="card flex-row">
+                    <i class="fas fa-clock"></i>
+                    <div class="card-body">
+                        <div class="card-title">Total duration</div>
+                        <div class="card-text text-center"> 00:00 h </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card">
-                    <div class="card-header">Average score</div>
-                    <div class="card-body"> Data 1 </div>
+                <div class="card flex-row">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="card-body">
+                        <div class="card-title">Average score</div>
+                        <div class="card-text text-center"> Data 1 </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="row mt-4">
             <div class="col-md-4">
-                <div class="card bg-info">
+                <div class="card">
                     <div class="card-header">My Calender</div>
                     <div class="card-body">My Calender</div>
                 </div>
-                <div class="card bg-secondary mt-4">
+                <div class="card mt-4">
                     <div class="card-header">Score and student</div>
-                    <div class="card-body">Score and student</div>
+                    <div class="card-body" id="score-student"></div>
                 </div>
             </div>
 
             <div class="col-md-8">
-                <div class="card bg-success">
+                <div class="card">
                     <div class="card-header">Top scorer</div>
                     <div class="card-body">
                         <div class="row">
@@ -80,25 +100,26 @@
 
                 <div class="row mt-4">
                     <div class="col-md-6">
-                        <div class="card bg-danger">
+                        <div class="card">
                             <div class="card-header">Keywords</div>
                             <div class="card-body"> Chart 1 </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="card bg-warning">
+                        <div class="card">
                             <div class="card-header">Overall sentiment</div>
                             <div class="card-body"> Chart 2 </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="card bg-dark mt-4">
+                <div class="card mt-4">
                     <div class="card-header">All data</div>
                     <div class="card-body"> List </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./assets/batch.js"></script>
 </body>
 </html>

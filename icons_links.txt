@@ -1,0 +1,7 @@
+video uploaded -> https://fontawesome.com/v5.15/icons/film?style=solid
+
+video processed -> https://fontawesome.com/v5.15/icons/tasks?style=solid
+
+duration -> https://fontawesome.com/v5.15/icons/clock?style=solid
+
+average score -> https://fontawesome.com/v5.15/icons/chart-line?style=solid
